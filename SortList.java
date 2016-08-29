@@ -1,10 +1,8 @@
 package com.Babatunde;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+//import java.lang.reflect.Array;
 import java.util.Collections;
 import java.util.Scanner;
-//import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -19,7 +17,6 @@ public class SortList {
         int[] sortNumber = getIntegers(5);
         int[] sortedResult = sortIntegers(sortNumber);
         printArray(sortedResult);
-
         }
 
 
@@ -54,10 +51,12 @@ public class SortList {
      * @return sortedArray
      */
     public static int[] sortIntegers(int[] arrayValues){
-        int[] sortedArray = new int[arrayValues.length];
-        for(int i=0; i < arrayValues.length; i++){
-            sortedArray[i] = arrayValues[i];
-        }
+//        int[] sortedArray = new int[arrayValues.length];
+//        for(int i=0; i < arrayValues.length; i++){
+//            sortedArray[i] = arrayValues[i];
+//        }
+
+        int[] sortedArray = Arrays.copyOf(arrayValues,arrayValues.length);
         boolean flag = true;
         int temp;
         while(flag){
