@@ -46,20 +46,20 @@ public class Solution {
      *
      * @param args
      */
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the size of your array: ");
-        int n = in.nextInt();
-        System.out.println("Now Enter the values into each array location: ");
-        int arr[] = new int[n];
-        int sum = 0;
-        for(int arr_i=0; arr_i < n; arr_i++) {
-            arr[arr_i] = in.nextInt();
-            sum +=arr[arr_i];
-        }
-            System.out.println("Number of objects in the list: "+ arr.length);
-            System.out.print("Total sum: "+ sum);
-    }
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Enter the size of your array: ");
+//        int n = in.nextInt();
+//        System.out.println("Now Enter the values into each array location: ");
+//        int arr[] = new int[n];
+//        int sum = 0;
+//        for(int arr_i=0; arr_i < n; arr_i++) {
+//            arr[arr_i] = in.nextInt();
+//            sum +=arr[arr_i];
+//        }
+//            System.out.println("Number of objects in the list: "+ arr.length);
+//            System.out.print("Total sum: "+ sum);
+//    }
 
 
     /**
