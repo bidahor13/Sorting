@@ -1,6 +1,5 @@
 package com.Babatunde;
 
-//import java.lang.reflect.Array;
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -18,7 +17,6 @@ public class SortList {
         int[] sortedResult = sortIntegers(sortNumber);
         printArray(sortedResult);
         }
-
 
     /**
      *
@@ -57,6 +55,7 @@ public class SortList {
 //        }
 
         int[] sortedArray = Arrays.copyOf(arrayValues,arrayValues.length);
+
         boolean flag = true;
         int temp;
         while(flag){
@@ -73,8 +72,4 @@ public class SortList {
         }
         return sortedArray;
     }
-
-
-
-
 }
