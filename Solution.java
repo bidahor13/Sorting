@@ -66,43 +66,109 @@ public class Solution {
      * TITLE: NEXT LINE OF CODE ON HACKER RANK ZOOM TEST
      */
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+
+//        try {
+//            Scanner input = new Scanner(System.in);
+//            System.out.println("Enter you First name: ");
+//            String fName = input.next();
+//            if (fName.matches("^-?\\d+$")) {
+//                System.out.println("Invalid input data at First Name... ");
+//
+//            }
+//
+//            System.out.println("Enter you Last name: ");
+//            String lName = input.next();
+//            if ((lName.matches("^-?\\d+$") )) {
+//                System.out.println("Invalid input data at Last Name... ");
+//                return;
+//            }
+//
+//            System.out.println("Enter your Age: ");
+//            int age = input.nextInt();
+//            if((age == (int)age)){
+//
+//                /**
+//                 * Output to the Screen
+//                 */
+//                System.out.println("**********Bio Data below***************");
+//                System.out.print(fName.trim() + " " + lName.trim());
+//                System.out.println("\n Age: " + age);
+//            }
+//
+//        } catch (InputMismatchException err) {
+//            System.out.println(" Try Catch result: ==== Invalid data! Check your input");
+//        }
+//
 
 
-        try {
-            Scanner input = new Scanner(System.in);
-            System.out.println("Enter you First name: ");
-            String fName = input.next();
-            if (fName.matches("^-?\\d+$")) {
-                System.out.println("Invalid input data at First Name... ");
+    //**********hacker rank**************8
 
-            }
+//    public static void main(String[] args) {
+//
+//        Scanner in = new Scanner(System.in);
+//
+//        int _numbers_size = 0;
+//        _numbers_size = Integer.parseInt(in.nextLine().trim());
+//        int[] _numbers = new int[_numbers_size];
+//        int _numbers_item;
+//        for(int _numbers_i = 0; _numbers_i < _numbers_size; _numbers_i++) {
+//            _numbers_item = Integer.parseInt(in.nextLine().trim());
+//            _numbers[_numbers_i] = _numbers_item;
+//        }
+//
+//        closestNumbers(_numbers);
+//
+//    }
 
-            System.out.println("Enter you Last name: ");
-            String lName = input.next();
-            if ((lName.matches("^-?\\d+$") )) {
-                System.out.println("Invalid input data at Last Name... ");
-                return;
-            }
+        //**********hacker rank**************8
 
-            System.out.println("Enter your Age: ");
-            int age = input.nextInt();
-            if((age == (int)age)){
 
-                /**
-                 * Output to the Screen
-                 */
-                System.out.println("**********Bio Data below***************");
-                System.out.print(fName.trim() + " " + lName.trim());
-                System.out.println("\n Age: " + age);
-            }
+/*
+ * Complete the function below.
+ */
 
-        } catch (InputMismatchException err) {
-            System.out.println(" Try Catch result: ==== Invalid data! Check your input");
-        }
+//    private static int temp;
+//    private static int temp2;
+//
+//    static int[] wiggleArrangeArray(int[] intArr) {
+//        boolean position = true;
+//        for(int i = 0; i <= intArr.length - 2; i++){
+//            if(position){
+//                //swap
+//                if(intArr[i] > intArr[i+1]){
+//                    temp = intArr[i];
+//                    temp2 = intArr[i+1];
+//                    intArr[i + 1] = temp;
+//                    intArr[i] = temp2;
+//                }
+//
+//            } else{
+//                if(intArr[i] < intArr[i+1]){
+//                    temp = intArr[i];
+//                    temp2 = intArr[i+1];
+//                    intArr[i + 1] = temp;
+//                    intArr[i] = temp2;
+//                }
+//            }
+//            position = !position;
+//            return intArr;
+//        }
+//
+//    }
 
-    }
+
+    //*****************START HERE COURSERA quiz****************************//
+
+
+
+
+
 }
+
+
+
 
 
 
